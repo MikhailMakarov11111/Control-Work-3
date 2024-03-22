@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class WordFrequencyAnalyzer {
+public class WordFrequencyAnalyzer extends AbstarctReadFile {
     public static void main(String[] args) {
         try {
             File file = new File("input.txt");
